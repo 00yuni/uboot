@@ -123,6 +123,9 @@ void sqlist_destroy(head* ptr)
 	free(ptr);
 	return;
 }
+<<<<<<< Updated upstream
 /*
 1\2\33\44
 */
+=======
+>>>>>>> Stashed changes
