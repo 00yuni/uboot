@@ -124,16 +124,5 @@ void sqlist_destroy(head* ptr)
 	return;
 }
 /*
-void sqlist_destroy(head* ptr)
-{
-	struct node_st* cur = NULL;
-	struct node_st* next = NULL;
-	for (cur = ptr->node.next; cur != &ptr->node; cur = next)
-	{
-		next = cur->next;
-		free(cur);
-	}
-	free(ptr);
-	return;
-}
+1\2\33\44
 */
