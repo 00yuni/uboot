@@ -32,3 +32,19 @@ typedef struct head_st
 head* sqlist_create(int size);
 
 void sqlist_destroy(head* ptr);
+
+
+/*
+typedef struct head_st
+{
+	int size;
+	struct node_st node;
+	int (*insert)(head_st*, const void*, int);
+	void (*display)(head_st* , backfunc*);
+	int (*delet)(head_st*, const void*, cmpfunc*);
+	int (*fetch)(head_st*, const void*, cmpfunc*, void*);
+	void* (*find)(head_st*, const void*, cmpfunc*);
+
+
+}head;
+*/
