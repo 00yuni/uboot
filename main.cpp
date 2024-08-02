@@ -83,3 +83,12 @@ int main()
 
 	return 0;
 }
+
+/*
+int name_cmp(const void* p, const void* q)
+{
+	const char* pp = (const char*)p;
+	const student* qq = (const student*)q;
+	return  strcmp(pp, qq->name);
+}
+*/
